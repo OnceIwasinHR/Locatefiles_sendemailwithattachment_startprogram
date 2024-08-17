@@ -28,5 +28,5 @@ while True:
     # Start Outlook again
     run_powershell_command(start_process)
     
-    # Wait for 24 hours before running the task again
+    # Wait for xxx min - use seconds x by minute then insert it time before running the task again
     time.sleep(60)
